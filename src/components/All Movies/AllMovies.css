@@ -1,0 +1,12 @@
+.movies__container{
+    width: 100%;
+    height: 100vh;
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr
+}
+
+.movies__item{
+    
+    padding-bottom: 15px;
+}

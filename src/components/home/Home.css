@@ -1,0 +1,24 @@
+.button__container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.button__more{
+    width: 150px;
+    height: 40px;
+    margin: 15px;
+    background-color: transparent;
+    font-size: 2rem;
+    border: 3px solid #fff;
+    box-shadow: unset;
+    color: #fff;
+    transition: color .3s ease,background-color .3s ease;
+    cursor: pointer;
+}
+
+.button__more:hover{
+    background-color: #fff;
+    color: red;
+    border: none;
+}

@@ -1,0 +1,20 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+
+    /* 1REM = 10px  */
+
+}
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    overflow-x: hidden;
+    background-color: #1c1c1c;
+}
